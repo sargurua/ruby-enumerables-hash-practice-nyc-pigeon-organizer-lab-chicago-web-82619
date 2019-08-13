@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
       array.each do |name|
         if new_hash.key?(name)
           if new_hash[name].key?(key)
-            new_hash[name][key] = 
+            new_hash[name][key] = attribute.
       end
     end
   end
