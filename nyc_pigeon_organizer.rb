@@ -9,6 +9,9 @@ def nyc_pigeon_organizer(data)
             new_hash[name][key].push(attribute.to_s)
           else
             new_hash[name][key] = [attribute.to_s]
+          end
+        else
+          new_hash = {name => key}
       end
     end
   end
