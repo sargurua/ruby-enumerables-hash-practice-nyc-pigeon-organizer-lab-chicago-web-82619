@@ -7,6 +7,7 @@ def nyc_pigeon_organizer(data)
         if new_hash.key?(name)
           if new_hash[name].key?(key)
             new_hash[name][key] = attribute.to_s
+          
       end
     end
   end
